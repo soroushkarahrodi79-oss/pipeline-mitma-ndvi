@@ -1,0 +1,17 @@
+# Datos pesados de satélites y telefonía (Evita que colapsen Git)
+*.tif
+*.tiff
+*.jp2
+*.parquet
+*.csv
+*.zip
+data/
+
+# Configuraciones y claves privadas (¡Por seguridad!)
+00_CONFIG/.env
+00_CONFIG/tokens.json
+.env
+
+# Archivos basura generados por Windows
+Thumbs.db
+desktop.inis
